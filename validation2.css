@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(58, 58, 57);
+
+}
+#registrationForm{
+    border: 2px solid rgb(133, 132, 132);
+    box-shadow: 2px 2px 2px gray;
+    height: auto;
+    width: 420px;
+    background-color: #bebebe;
+
+    
+}
+form h3{
+    text-align: center;
+    font-size: 26px;
+    margin-right: 20px;
+    color: rgb(25, 25, 75);
+}
+form{
+   display: flex;
+   gap: 30px;
+   flex-direction: column;
+   margin-left: 40px;
+   margin-top: 10px;
+
+}
+.form-group1,.form-group2{
+    display: flex;
+    gap: 40px;
+}
+.form-group3{
+    display: flex;
+}
+.form-group4{
+    display: flex;
+}
+.form-group5{
+    display: flex;
+    gap: 20px;
+}
+#dob{
+    width: 260px;
+    text-align: center;
+}
+.form-group6{
+    display: flex;
+    gap: 60px;
+}
+.form-group7{
+    display: flex;gap: 60px;
+}
+.form-group8{
+    display: flex;
+ gap: 15px;
+    
+}
+input{
+    height: 30px;
+    width: 320px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 0.5px #e7e8e9  solid;
+
+    border: 0;
+    outline: 0;
+}
+input:hover{
+    border:0.5px solid #03293d;
+}
+#male,#female,#other{
+    width: 20px;
+    height: 16px;
+
+}
+.error-message {
+    color: #b30909;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+label{
+    font-size: 16px;
+    color: #494949;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border: 0;
+    outline:0;
+    background-color: rgb(16, 161, 60);
+    color:  #fff;
+    margin-left: 90px;
+    margin-bottom: 7px;
+  } 
+ button:hover{
+    background-color: rgb(2, 41, 2);
+
+ }
+

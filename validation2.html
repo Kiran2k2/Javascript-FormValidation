@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./validation2.css">
+
+  </head>
+  <body>
+    <div id="registrationForm">
+      <form id="form">
+        <h3> Registration Form</h3>
+
+        <div class="form-group1">
+          <!-- <label for="firstName">First name</label> -->
+          <input type="text" id="firstName" name="firstName" placeholder=" Enter your firstname"/>
+          <div class="error-message" id="firstNameError" ></div>
+        </div>
+        <div class="form-group2">
+          <!-- <label for="lastName">Last Name</label> -->
+          
+          <input type="text" id="lastName" name="lastName" placeholder=" Enter Your lastName" />
+          <div class="error-message" id="lastNameError"></div>
+        </div>
+        <div class="form-group3">
+          <!-- <label for="password">Password</label> -->
+          <input type="password" id="password" name="password" placeholder=" Enter Your Password"/>
+          <div class="error-message" id="passwordError"></div>
+        </div>
+        <div class="form-group4">
+          <!-- <label for="confirmPassword">Confirm <br> password</label> -->
+          <input
+            type="text"
+            id="confirmPassword"
+            name="confirmPassword"
+            placeholder="confirmPassword"
+          />
+          <div class="error-message" id="confirmPasswordError"></div>
+        </div>
+        <div class="form-group5">
+          <label for="dob"> DOB</label>
+          <input type="date" id="dob" name="dob" placeholder="DOB"/>
+          <div class="error-message" id="dobError"></div>
+        </div>
+        <div class="form-group6">
+          <!-- <label for="email">Email:</label> -->
+          <input type="email" id="email" name="email" placeholder=" Enter Your Email"/>
+          <div class="error-message" id="emailError"></div>
+        </div>
+        <div class="form-group7">
+            <!-- <label for="number"> Mobile</label> -->
+            <input type="tel" id="number" name="number" placeholder="Enter Your Mobile no"/>
+            <div class="error-message" id="numberError"></div>
+          </div>
+        <div class="form-group8 gender-group">
+            
+            <label for="" id="gender">Gender</label>
+            <input type="radio"name="gender" id="male" value="male"> <label for="">Male</label>
+            <input type="radio"name="gender" id="female" value="female"> <label for="">Female</label>
+
+            <input type="radio"name="gender" id="other" value="other"> <label for="">Others</label>
+
+          <div class="error-message" id="genderError"></div>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <script src="./validation2.js">
+     
+    </script>
+  </body>
+</html>
